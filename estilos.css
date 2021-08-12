@@ -1,0 +1,62 @@
+.header, .nav, .footer, .nav{
+    font-family: 'Poiret One', cursive;
+}
+
+/* CONFIGURACION DE LA IMAGEN */
+.imagen {
+    /* transition: all 600ms; */
+    transform: rotate(-15deg);  
+    opacity: 0;
+}
+
+/* COLORES DE LOS CUADROS */
+/* PRIMERA FILA */
+.color11 { background-color: #b00000; }
+.color12 { background-color: #f1481f; }
+.color13 { background-color: #f2c602; }
+.color14 { background-color: #036016; }
+.color15 { background-color: #023654; }
+
+/* SEGUNDA FILA */
+.color21 { background-color: #ce0000; }
+.color22 { background-color: #f5701a; }
+.color23 { background-color: #ffd100; }
+.color24 { background-color: #04773b; }
+.color25 { background-color: #1d465e; } 
+
+/* TERCERA FILA */
+.color31 { background-color: #ec0000; }
+.color32 { background-color: #f99815; }
+.color33 { background-color: #ffe019; }
+.color34 { background-color: #058e3f; }
+.color35 { background-color: #15557a; }
+
+/* CUARTA FILA */
+.color41 { background-color: #ff0f0f;}
+.color42 { background-color: #fdc010;}
+.color43 { background-color: #ffee32;}
+.color44 { background-color: #069e2d;}
+.color45 { background-color: #1c658f;}
+
+.color {
+    transition: transparent 600ms;
+}
+
+.color_click {
+    background-color: transparent;
+    transition: 600ms;
+}
+
+.imagen_entrada {
+    transform: scale(1.35);
+    opacity: 1;
+    transition: 600ms;
+    transition-timing-function: ease-in-out;
+}
+
+.imagen_salida{
+    opacity: 0;
+    transform: rotate3d(1,1,0,-90deg);
+    transition: 1000ms;
+    transition-timing-function: ease-in-out;
+}
